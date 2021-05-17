@@ -1,0 +1,135 @@
+@font-face{
+	font-family:tank;
+	src:url("./font/GrindAndDeath_Demo.ttf");
+}
+
+
+
+body{
+	background-color:black;
+}
+
+
+* {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0; 
+    padding: 0;
+
+}
+
+/*-----------------------------------------------------*/
+.navbarre{
+color:white;
+height:4.5em;
+width:100%;
+display:flex;
+justify-content: space-between;
+background-image: url(fond3.gif);
+background-size: cover;
+}
+/*-----------------------------------------------------*/
+.left{
+display:flex;
+flex-grow: 2;
+text-align: left;
+flex: 1 1 0%;
+}
+
+/*-----------------------------------------------------*/
+.icone{
+height:64px; 
+width:70px;
+margin-top: 5px;
+}
+
+.TANKMARKET{
+height:64px; 
+width:64px;
+margin-top: 5px;
+}
+
+
+/*-----------------------------------------------------*/
+
+.fondu{
+background-image: url(fondu.png);
+display:flex;
+height:816px;
+width:1890px;
+position:absolute;
+
+}
+
+.gif{
+height:816px; 
+width:100%;
+z-index : '2';
+position: absolute;
+background: linear-gradient(transparent, rgba(0,0,0,1)), url("ost-world-of-tanks-10-intro-login-2018-screen.gif") ;
+background-size: cover;
+
+}
+/*-----------------------------------------------------*/
+
+
+.giffondu{
+color:white;
+height:51em;
+
+justify-content:center;
+display:flex;
+}
+
+
+
+footer{
+color:white;
+height:20em;
+width: 70%;
+background-color:#0A0000;
+text-align: center;
+margin-left: auto;
+margin-right: auto ;
+ border-radius: 30px 30px 0 0;
+}
+
+
+
+
+label {
+    display: block;
+    font: .9rem 'Fira Sans', sans-serif;
+
+}
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+
+}
+
+
+
+
+
+.article{
+height:170px;
+width:500px;
+position:absolute;
+background: rgba(0,0,0,0.5);
+background-clip: padding-box;
+color:white;
+border-radius: 10px 10px 10px 10px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10em;
+text-align:center;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,220 @@
+@font-face{
+	font-family:tank;
+	src:url("./font/GrindAndDeath_Demo.ttf");
+}
+
+
+
+body{
+	  background-color: #0C0C0C;
+	  	  background-size: cover;
+}
+
+
+* {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0; 
+    padding: 0;
+
+}
+
+/*-----------------------------------------------------*/
+.navbarre{
+color:white;
+height:4.5em;
+width:100%;
+display:flex;
+justify-content: space-between;
+	  background-color: #0C0C0C;
+	  background-size: cover;
+}
+/*-----------------------------------------------------*/
+.left{
+	display:flex;
+flex-grow: 2;
+text-align: left;
+flex: 1 1 0%;
+}
+
+.mid{
+flex-grow: 2;
+text-align: center;
+flex: 1 1 0%;
+font-family:tank;
+font-size: 20px;
+}
+.right{
+flex-grow: 2;
+text-align: right;
+flex: 1 1 0%;
+font-family:tank;
+margin-bottom: 5px;
+font-size: 20px;
+}
+/*-----------------------------------------------------*/
+.icone{
+height:64px; 
+width:70px;
+margin-top: 5px;
+}
+
+.TANKMARKET{
+height:64px; 
+width:64px;
+margin-top: 5px;
+}
+
+.panier{
+	height:55px; 
+width:55px;
+margin-top: 5px;
+margin-right: 5px;
+}
+
+
+.drapeaux{
+	height:50px; 
+width:64px;
+margin-top: 5px;
+}
+/*-----------------------------------------------------*/
+
+
+
+
+
+
+.article{
+height:500px;
+width:500px;
+/*background-image: url(fondnoir2.png); */
+background-image: url(feu.gif);
+border :5px solid rgba(28,4,4,0.5) ;
+background-clip: padding-box;
+color:white;
+ border-radius: 10px 10px 10px 10px;
+
+}
+
+.aside{
+height:3500px;
+width:1000px;
+background-size: cover;
+background-image: url(feu.gif);
+border :5px solid rgba(28,4,4,0.5) ;
+background-clip: padding-box;
+color:white;
+ border-radius: 10px 10px 10px 10px;
+text-align: center;
+margin-left: auto;
+margin-right: auto ;
+margin-top: 5em;
+}
+
+footer{
+color:white;
+height:20em;
+width: 70%;
+background-color:#0A0000;
+text-align: center;
+margin-left: auto;
+margin-right: auto ;
+ border-radius: 30px 30px 0 0;
+}
+
+/*-----------------------------------------------------*/
+
+
+
+.topdesventes{
+font-family:tank;
+margin-top: 10px;
+margin-bottom: 5px;
+font-size: 40px;
+color:red;
+}
+
+.promotions{
+font-family:tank;
+margin-top: 60px;
+margin-bottom: 5px;
+font-size: 80px;
+color:red;
+}
+
+
+
+
+
+.descriptif{
+	font-size: 40px;
+	font-family:tank;
+}
+
+
+
+/*
+.UN{
+display:flex;
+flex-grow: 2;
+flex: 1 1 0%;
+width:460px;
+height:302px;
+float: left;
+margin-left: 10px;
+margin-bottom : 40px;
+flex-direction: column;
+}
+*/
+
+
+
+.DEUX{
+display:flex;
+flex: 1 1 0%;
+width:460px;
+height:302px;
+float: right;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom : 80px;
+flex-direction: column;
+}
+
+
+
+.liensutiles{
+	min-width: 500px;
+	margin-top: 3em;
+	text-align: center;
+
+}
+
+
+.rsocial{
+	min-width: 500px;
+	margin-top: 3em;
+	text-align: center;
+
+}
+
+.vroom{
+	display: flex;
+	    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.color-grey{
+	color:grey;
+	text-decoration: line-through;
+}
+
+.color-red{
+	color: red;
+}
+
+.color-ED514E{
+color:rgba(237,81,78,1);
+}
